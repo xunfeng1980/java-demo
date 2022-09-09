@@ -13,6 +13,7 @@
         <module>pemja-demo</module>
         <module>iceberg-demo</module>
         <module>arrow-demo</module>
+        <module>reactor-demo</module>
     </modules>
     <dependencies>
         <dependency>
