@@ -14,6 +14,7 @@
         <module>iceberg-demo</module>
         <module>arrow-demo</module>
         <module>reactor-demo</module>
+        <module>automatiko-sw-demo</module>
     </modules>
     <dependencies>
         <dependency>
