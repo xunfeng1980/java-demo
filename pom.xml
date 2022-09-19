@@ -15,6 +15,7 @@
         <module>arrow-demo</module>
         <module>reactor-demo</module>
         <module>automatiko-sw-demo</module>
+        <module>flink-demo</module>
     </modules>
     <dependencies>
         <dependency>
