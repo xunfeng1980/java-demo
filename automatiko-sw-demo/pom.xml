@@ -18,10 +18,6 @@
         <automatiko.version>0.18.0</automatiko.version>
         <surefire.version>2.22.1</surefire.version>
         <compiler.version>3.8.1</compiler.version>
-
-        <maven.compiler.target>11</maven.compiler.target>
-        <maven.compiler.source>11</maven.compiler.source>
-
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

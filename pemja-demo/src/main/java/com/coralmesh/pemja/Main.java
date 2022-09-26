@@ -17,7 +17,7 @@ public class Main {
             System.out.println(a);
             // exec & eval
             interpreter.exec("print(a)");
-            interpreter.exec("import pandas as pd\n" + "\n" + "df = pd.read_csv('/Users/lux/src/github.com/xunfeng1980/pemja-demo/src/main/resources/data.csv')\n" + "\n" + "print(df.to_string())");
+            interpreter.exec("import pandas as pd\n" + "\n" + "df = pd.read_csv('https://people.sc.fsu.edu/~jburkardt/data/csv/addresses.csv')\n" + "\n" + "print(df.to_string())");
 
             interpreter.exec("import torch\n" + "x = torch.rand(5, 3)\n" + "print(x)");
             interpreter.exec("from transformers import pipeline\n" + "unmasker = pipeline('fill-mask', model='albert-base-v2')\n" + "res = unmasker(\"Hello I'm a [MASK] model.\")\n" + "print(res)");

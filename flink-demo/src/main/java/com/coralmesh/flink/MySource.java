@@ -3,6 +3,7 @@ package com.coralmesh.flink;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class MySource implements SourceFunction<String> {
@@ -11,7 +12,7 @@ public class MySource implements SourceFunction<String> {
     @Override
     public void run(SourceContext<String> sourceContext) throws Exception {
         while (isRunning) {
-            var stringList = new ArrayList<String>();
+            List<String> stringList = new ArrayList<String>();
             for (int i = 0; i < 10; i++) {
                 stringList.add(String.valueOf(i));
             }

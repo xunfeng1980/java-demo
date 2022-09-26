@@ -16,6 +16,7 @@
         <module>reactor-demo</module>
         <module>automatiko-sw-demo</module>
         <module>flink-demo</module>
+        <module>jdk19-demo</module>
     </modules>
     <dependencies>
         <dependency>
