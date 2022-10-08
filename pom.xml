@@ -17,6 +17,7 @@
         <module>automatiko-sw-demo</module>
         <module>flink-demo</module>
         <module>jdk19-demo</module>
+        <module>disruptor-2p1c-demo</module>
     </modules>
     <dependencies>
         <dependency>
