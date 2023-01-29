@@ -18,6 +18,7 @@
         <module>flink-demo</module>
         <module>jdk19-demo</module>
         <module>disruptor-2p1c-demo</module>
+        <module>temporal-demo</module>
     </modules>
     <dependencies>
         <dependency>
@@ -83,11 +84,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
 </project>
